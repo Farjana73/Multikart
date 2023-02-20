@@ -193,6 +193,22 @@ $('.display_image_slider').slick({
 });
 // related new product slider end
 
+
+// dress stock part start
+
+let leftIcon = document.querySelector(".left_icon i")
+let input = document.querySelector("input")
+let righttIcon = document.querySelector(".right_icon i")
+
+let i = 0
+
+// dress stock part end
+
+
+
+
+
+
 })
 
 

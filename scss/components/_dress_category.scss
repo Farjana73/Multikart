@@ -376,11 +376,14 @@
                                           padding: 15px 10px;
                                           
                                          }
-                                         span{
+                                         input{
+                                          border: none;
                                           border-top: 1px solid #ced4da;
                                           border-bottom: 1px solid #ced4da;
-                                          padding: 15px 35px;
+                                          padding: 15px 15px;
                                           background-color: #e9ecef;
+                                          text-align: center;
+                                          width: 90px;
                                          }
                                          .right_icon{
                                           border: 1px solid #ced4da;
