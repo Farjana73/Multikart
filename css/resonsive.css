@@ -1,0 +1,429 @@
+@media (max-width:577.98px) {
+    /* header part start */
+.top_header{
+    display: none;
+}
+
+/* mobile menu start */
+
+.mobile_menu{
+    display: block !important; 
+}
+/* mobile menu start */
+
+/* header part end */
+
+    /* navbar start */
+
+    #navbar {
+        padding: 0;
+    
+    }
+
+    .navbar {
+        padding-bottom: 0 !important;
+    }
+
+    .navbar-toggler{
+        font-size: 1.8rem;
+        margin-top: 5px;
+    }
+
+    .nav_right_icon{
+        display: none;
+    }
+    /* navbar end */
+
+    /* banner part start */
+
+    .carousel-caption {
+        bottom: -1rem;
+        right: 44%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        color: #777;
+    }
+
+    .carousel-caption h2 {
+        font-size: 20px;
+    }
+
+    .btn-solid {
+        padding: 9px 17px;
+    }
+    /* banner part end */
+
+    /* collection part start */
+
+    .man_image {
+  
+        margin-bottom: 20px;
+    }
+
+    .man_image .banner_contain {
+        padding-left: 0; 
+        padding-right:0;
+    }
+
+    .banner_contain h4 {
+        font-size: 16px;
+    }
+
+    .banner_contain h2 {
+        font-size: 35px;
+    }
+
+    .Women_image .banner_contain {
+        padding-left: 0; 
+        padding-right:0;
+    }
+
+    /* collection part end */
+
+    /* Top collection part start */
+
+    #top_collection .section_heading {
+       min-width: 300px !important;
+       
+    }
+
+    #top_collection .section_heading h4 {
+        font-size: 16px;
+    }
+
+    #top_collection .section_heading h2 {
+        font-size: 24px;
+    }
+    /* Top collection part end */
+
+/* Trend Fashion part start */
+
+    .fashion_info {
+    text-align: center;
+    }
+
+    #trend_fashion .fashion_info h2 {
+    font-size: 55px;
+    }
+
+    #trend_fashion .fashion_info h3 {
+        font-size: 30px;
+     
+    }
+
+    #trend_fashion .fashion_info h4 {
+        font-size: 18px;
+        color: #777;
+    
+    }
+
+/* Trend Fashion part end*/
+
+    /* Exclusive Products part start */
+    #exclusive .section_heading {
+        min-width: 300px !important;
+    }
+
+    #exclusive .section_heading h4 {
+        font-size: 16px;
+        
+    }
+
+    #exclusive .section_heading h2 {
+        font-size: 24px;
+    }
+
+    #exclusive #offer .offer_item {
+        margin-bottom: 40px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Exclusive Products part end */
+
+    /* Blog part start */
+    #blog .section_heading {
+        min-width: 300px !important;
+    }
+
+    #blog .section_heading h4 {
+        font-size: 16px;
+    }
+
+    #blog .section_heading h2 {
+        font-size: 24px;
+    }
+    /* Blog part end */
+
+    /* Footer part start */
+    .footer_left {
+        text-align: center;
+    }
+
+    #footer .footer_left p {
+      display: none;
+    }
+
+    #footer .subscribe input {
+        padding: 9px;
+        width: 170px;
+       
+    }
+
+    #footer .subscribe {
+        margin: 10px 0;
+    }
+
+    #section_b .footer_category {
+        margin: 60px 0;
+    }
+
+    #section_b .footer_category h4 {
+        padding-bottom: 7px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    #section_b .footer_choose h4 {
+        padding-bottom: 7px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    #section_b .footer_info {
+    margin-top: 60px; 
+    margin-left: 0;
+    }
+
+    #section_b .footer_info h4 {
+        padding-bottom: 7px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .payment {
+        margin-top: 20px;
+        margin-bottom: 70px;
+        text-align: center;
+    }
+    /* Footer part end */
+    }
+
+
+
+
+
+
+
+
+    
+@media (max-width:577.98px) {
+    /* header part start */
+.top_header{
+    display: none;
+}
+
+/* mobile menu start */
+
+.mobile_menu{
+    display: block !important; 
+}
+/* mobile menu start */
+
+/* header part end */
+
+    /* navbar start */
+
+    #navbar {
+        padding: 0;
+    
+    }
+
+    .navbar {
+        padding-bottom: 0 !important;
+    }
+
+    .navbar-toggler{
+        font-size: 1.8rem;
+        margin-top: 5px;
+    }
+
+    .nav_right_icon{
+        display: none;
+    }
+    /* navbar end */
+
+    /* banner part start */
+
+    .carousel-caption {
+        bottom: -1rem;
+        right: 44%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        color: #777;
+    }
+
+    .carousel-caption h2 {
+        font-size: 20px;
+    }
+
+    .btn-solid {
+        padding: 9px 17px;
+    }
+    /* banner part end */
+
+    /* collection part start */
+
+    .man_image {
+  
+        margin-bottom: 20px;
+    }
+
+    .man_image .banner_contain {
+        padding-left: 0; 
+        padding-right:0;
+    }
+
+    .banner_contain h4 {
+        font-size: 16px;
+    }
+
+    .banner_contain h2 {
+        font-size: 35px;
+    }
+
+    .Women_image .banner_contain {
+        padding-left: 0; 
+        padding-right:0;
+    }
+
+    /* collection part end */
+
+    /* Top collection part start */
+
+    #top_collection .section_heading {
+       min-width: 300px !important;
+       
+    }
+
+    #top_collection .section_heading h4 {
+        font-size: 16px;
+    }
+
+    #top_collection .section_heading h2 {
+        font-size: 24px;
+    }
+    /* Top collection part end */
+
+/* Trend Fashion part start */
+
+    .fashion_info {
+    text-align: center;
+    }
+
+    #trend_fashion .fashion_info h2 {
+    font-size: 55px;
+    }
+
+    #trend_fashion .fashion_info h3 {
+        font-size: 30px;
+     
+    }
+
+    #trend_fashion .fashion_info h4 {
+        font-size: 18px;
+        color: #777;
+    
+    }
+
+/* Trend Fashion part end*/
+
+    /* Exclusive Products part start */
+    #exclusive .section_heading {
+        min-width: 300px !important;
+    }
+
+    #exclusive .section_heading h4 {
+        font-size: 16px;
+        
+    }
+
+    #exclusive .section_heading h2 {
+        font-size: 24px;
+    }
+
+    #exclusive #offer .offer_item {
+        margin-bottom: 40px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Exclusive Products part end */
+
+    /* Blog part start */
+    #blog .section_heading {
+        min-width: 300px !important;
+    }
+
+    #blog .section_heading h4 {
+        font-size: 16px;
+    }
+
+    #blog .section_heading h2 {
+        font-size: 24px;
+    }
+    /* Blog part end */
+
+    /* Footer part start */
+    .footer_left {
+        text-align: center;
+    }
+
+    #footer .footer_left p {
+      display: none;
+    }
+
+    #footer .subscribe input {
+        padding: 9px;
+        width: 170px;
+       
+    }
+
+    #footer .subscribe {
+        margin: 10px 0;
+    }
+
+    #section_b .footer_category {
+        margin: 60px 0;
+    }
+
+    #section_b .footer_category h4 {
+        padding-bottom: 7px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    #section_b .footer_choose h4 {
+        padding-bottom: 7px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    #section_b .footer_info {
+    margin-top: 60px; 
+    margin-left: 0;
+    }
+
+    #section_b .footer_info h4 {
+        padding-bottom: 7px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .payment {
+        margin-top: 20px;
+        margin-bottom: 70px;
+        text-align: center;
+    }
+    /* Footer part end */
+    }

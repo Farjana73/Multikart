@@ -133,6 +133,37 @@ align-items: center;
     
 /*dark mode end*/ 
 
+/*mobile bottom menu start*/ 
+.mobile_menu{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #333;
+    width: 100vw;
+    height: 60px;
+    z-index: 9999;
+    display: none;
+   
+    
+   ul{
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+    li{
+        margin-top: 17px;
+        a{
+            color: #999;
+            display: block;
+            i{
+                font-size: 20px;
+            }
+            
+        }
+    }
+   }
+}
+/*mobile bottom menu end*/ 
+
 /* ==============================
     |||||header part end||||
 =================================*/

@@ -111,9 +111,36 @@ colorsArray.map((color, index) => {
 
 $('.topCollection_slider').slick({
   slidesToShow: 4,
-  slidesToScroll: 1,
+  slidesToScroll: 4 ,
   arrows: false,
   draggable: true,
+
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 445,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    
+  ]
+
+
 });
 
 // top collection part end
@@ -156,6 +183,32 @@ $('.blog_slider').slick({
   arrows: false,
   draggable: true,
   centerPadding: '0px',
+
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 445,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    
+  ]
+
 });
 
 $('.slide_icon').slick({
@@ -163,6 +216,32 @@ $('.slide_icon').slick({
   slidesToScroll: 5,
   arrows: false,
   draggable: true,
+
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 4
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3
+      }
+    },
+    {
+      breakpoint: 445,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    }
+    
+  ]
+
 });
 // blog slider start
 
@@ -196,11 +275,11 @@ $('.display_image_slider').slick({
 
 // dress stock part start
 
-let leftIcon = document.querySelector(".left_icon i")
-let input = document.querySelector("input")
-let righttIcon = document.querySelector(".right_icon i")
+// let leftIcon = document.querySelector(".left_icon i")
+// let input = document.querySelector("input")
+// let righttIcon = document.querySelector(".right_icon i")
 
-let i = 0
+// let i = 0
 
 // dress stock part end
 

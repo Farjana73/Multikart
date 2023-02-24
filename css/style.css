@@ -360,6 +360,34 @@ body.dark {
 }
 
 /*dark mode end*/
+/*mobile bottom menu start*/
+.mobile_menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #333;
+  width: 100vw;
+  height: 60px;
+  z-index: 9999;
+  display: none;
+}
+.mobile_menu ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mobile_menu ul li {
+  margin-top: 17px;
+}
+.mobile_menu ul li a {
+  color: #999;
+  display: block;
+}
+.mobile_menu ul li a i {
+  font-size: 20px;
+}
+
+/*mobile bottom menu end*/
 /* ==============================
     |||||header part end||||
 =================================*/
@@ -1033,10 +1061,8 @@ body.dark {
 
 .man_image .banner_contain {
   position: absolute;
-  top: 106px;
-  left: 207px;
-  width: 100%;
-  height: 100%;
+  top: 40%;
+  right: 20px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -1051,10 +1077,8 @@ body.dark {
 
 .Women_image .banner_contain {
   position: absolute;
-  top: 107px;
-  left: 123px;
-  width: 100%;
-  height: 100%;
+  top: 40%;
+  right: 0;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -1125,7 +1149,7 @@ body.dark {
   padding: 65px 0;
 }
 #top_collection .section_heading {
-  width: 670px;
+  max-width: 670px;
   margin: 0 auto;
 }
 #top_collection .section_heading h4 {
@@ -1199,35 +1223,41 @@ body.dark {
 #top_collection .item .model_image .small_image ul .active img {
   opacity: 1;
 }
-#top_collection .item .model_image .label_block {
+#top_collection .item .model_image .label_block_new {
   position: absolute;
+  top: 13px;
+  left: 0;
 }
-#top_collection .item .model_image .label_block .label_3 {
+#top_collection .item .model_image .label_block_new span {
+  width: 40px;
+  height: 40px;
   border-radius: 100%;
   background-color: #ff4c3b;
   text-align: center;
   font-size: 13px;
   font-family: "Lato", sans-serif;
   font-weight: 700;
-  position: absolute;
   padding: 9px 4px;
   text-transform: uppercase;
   color: #fff;
-  top: -370px;
-  left: 7px;
   z-index: 1;
+  display: block;
 }
-#top_collection .item .model_image .label_block .label_4 {
+#top_collection .item .model_image .label_block_sale {
   position: absolute;
+  top: 35px;
+  right: 0;
+  transform: rotate(268deg);
+}
+#top_collection .item .model_image .label_block_sale span {
   font-size: 14px;
   font-weight: 700;
   font-family: "Lato", sans-serif;
   transform: rotate(268deg);
-  top: -351px;
-  right: -284px;
   letter-spacing: 0.1em;
   z-index: 1;
   color: #212529;
+  right: 0;
 }
 #top_collection .item .model_image .shopping_cart {
   position: absolute;
@@ -1376,7 +1406,7 @@ body.dark {
 }
 #trend_fashion .fashion_info h4 {
   font-size: 24px;
-  color: #2b2b2b;
+  color: #777;
   font-weight: 600;
   letter-spacing: 0.5em;
   padding-top: 10px;
@@ -1398,7 +1428,7 @@ body.dark {
   padding-top: 65px;
 }
 #exclusive .section_heading {
-  width: 670px;
+  max-width: 670px;
   margin: 0 auto;
 }
 #exclusive .section_heading h4 {
@@ -1432,10 +1462,6 @@ body.dark {
   margin: 0 auto;
   bottom: 19px;
 }
-#exclusive .special_menu {
-  width: 670px;
-  margin: 0 auto;
-}
 #exclusive .special_menu button {
   color: #2d2a25;
   transition: all linear 0.3s;
@@ -1448,6 +1474,7 @@ body.dark {
 }
 #exclusive .filter_gallery .filter {
   display: none;
+  animation: filter 0.5s ease-in-out;
 }
 #exclusive .filter_gallery .filter .filter_item {
   margin: 20px 0;
@@ -1461,55 +1488,41 @@ body.dark {
 #exclusive .filter_gallery .filter .filter_item .model_image .display_image .active {
   display: block;
 }
-#exclusive .filter_gallery .filter .filter_item .model_image .small_image {
+#exclusive .filter_gallery .filter .filter_item .model_image .label_block_new {
   position: absolute;
-  bottom: 15px;
+  top: 13px;
   left: 0;
 }
-#exclusive .filter_gallery .filter .filter_item .model_image .small_image ul li {
-  width: 45px;
-  height: auto;
-  margin-bottom: 5px;
-}
-#exclusive .filter_gallery .filter .filter_item .model_image .small_image ul li img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  opacity: 0.3;
-}
-#exclusive .filter_gallery .filter .filter_item .model_image .small_image ul .active img {
-  opacity: 1;
-}
-#exclusive .filter_gallery .filter .filter_item .model_image .label_block {
-  position: absolute;
-}
-#exclusive .filter_gallery .filter .filter_item .model_image .label_block .label_3 {
+#exclusive .filter_gallery .filter .filter_item .model_image .label_block_new span {
+  width: 40px;
+  height: 40px;
   border-radius: 100%;
   background-color: #ff4c3b;
   text-align: center;
   font-size: 13px;
   font-family: "Lato", sans-serif;
   font-weight: 700;
-  position: absolute;
   padding: 9px 4px;
   text-transform: uppercase;
   color: #fff;
-  top: -406px;
-  left: 7px;
   z-index: 1;
+  display: block;
 }
-#exclusive .filter_gallery .filter .filter_item .model_image .label_block .label_4 {
+#exclusive .filter_gallery .filter .filter_item .model_image .label_block_sale {
   position: absolute;
+  top: 35px;
+  right: 0;
+  transform: rotate(268deg);
+}
+#exclusive .filter_gallery .filter .filter_item .model_image .label_block_sale span {
   font-size: 14px;
   font-weight: 700;
   font-family: "Lato", sans-serif;
   transform: rotate(268deg);
-  top: -383px;
-  right: -320px;
   letter-spacing: 0.1em;
   z-index: 1;
   color: #212529;
+  right: 0;
 }
 #exclusive .filter_gallery .filter .filter_item .model_image .shopping_cart {
   position: absolute;
@@ -1610,6 +1623,16 @@ body.dark {
 }
 #exclusive .filter_gallery .filter .dress_type .colors span.blue {
   background-color: blue;
+}
+@keyframes filter {
+  0% {
+    transform: scale(0%);
+    opacity: 0.1;
+  }
+  100% {
+    transform: scale(100%);
+    opacity: 1;
+  }
 }
 #exclusive .filter_gallery .active {
   display: block;
@@ -1717,7 +1740,7 @@ body.dark {
   padding-top: 65px;
 }
 #blog .section_heading {
-  width: 670px;
+  max-width: 670px;
   margin: 0 auto;
 }
 #blog .section_heading h4 {
