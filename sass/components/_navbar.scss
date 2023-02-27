@@ -161,6 +161,31 @@ align-items: center;
         }
     }
    }
+   .top_mobile_menu{
+    position: relative;
+    .language{
+        padding: 15px 20px 20px;
+        min-width: 175px;
+        background-color: $white;
+        position: absolute;
+        right: -15px;
+        bottom: 100%;
+        opacity: 0;
+        visibility: hidden;
+        transition: all linear .3s;
+        ul{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    &:hover .language{
+        opacity: 1;
+        bottom: calc(100% + 90%);
+        visibility: visible;
+    }
+ 
+   }
+
 }
 /*mobile bottom menu end*/ 
 

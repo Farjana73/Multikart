@@ -386,6 +386,29 @@ body.dark {
 .mobile_menu ul li a i {
   font-size: 20px;
 }
+.mobile_menu .top_mobile_menu {
+  position: relative;
+}
+.mobile_menu .top_mobile_menu .language {
+  padding: 15px 20px 20px;
+  min-width: 175px;
+  background-color: #ffffff;
+  position: absolute;
+  right: -15px;
+  bottom: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all linear 0.3s;
+}
+.mobile_menu .top_mobile_menu .language ul {
+  display: flex;
+  flex-direction: column;
+}
+.mobile_menu .top_mobile_menu:hover .language {
+  opacity: 1;
+  bottom: 190%;
+  visibility: visible;
+}
 
 /*mobile bottom menu end*/
 /* ==============================

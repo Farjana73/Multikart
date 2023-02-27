@@ -1,13 +1,13 @@
-@media (max-width:577.98px) {
+@media (min-width:578px) and (max-width:767.98px) {
     /* header part start */
-.top_header{
-    display: none;
-}
+    .top_header .header_contact {
+        display: none;
+    }
 
 /* mobile menu start */
 
 .mobile_menu{
-    display: block !important; 
+    display:none; 
 }
 /* mobile menu start */
 
@@ -24,14 +24,30 @@
         padding-bottom: 0 !important;
     }
 
-    .navbar-toggler{
-        font-size: 1.8rem;
-        margin-top: 5px;
-    }
-
-    .nav_right_icon{
+  
+    .nav_right_icon {
         display: none;
     }
+
+    #navbar .brand_logo {
+        justify-content: flex-start !important;
+        gap: 60px;
+       
+    }
+    #navbar .brand_logo .small_device_menu{
+        display: flex;
+        gap: 10px;
+       
+    }
+    #navbar .brand_logo .small_device_menu i{
+        font-size: 28px;
+        color: #ff4c3b;
+    }
+    #navbar .brand_logo .small_device_menu img{
+        margin-right: 5px;
+    }
+
+    
     /* navbar end */
 
     /* banner part start */
@@ -39,16 +55,17 @@
     .carousel-caption {
         bottom: -1rem;
         right: 44%;
+        padding-bottom: 3.25rem;
     }
 
     .carousel-caption h5 {
-        font-size: 14px;
-        letter-spacing: 0.1em;
+        font-size: 16px;
+        letter-spacing: .4em;
         color: #777;
     }
 
     .carousel-caption h2 {
-        font-size: 20px;
+        font-size: 35px;
     }
 
     .btn-solid {
@@ -140,6 +157,10 @@
         margin-bottom: 40px;
         flex-direction: column;
         text-align: center;
+    }
+
+    #exclusive #offer .border_left {
+        border-left: none;
     }
 
     /* Exclusive Products part end */
@@ -203,7 +224,11 @@
 
     .payment {
         margin-top: 20px;
-        margin-bottom: 70px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .footer_copy {
         text-align: center;
     }
     /* Footer part end */
@@ -211,12 +236,8 @@
 
 
 
+/* small device */
 
-
-
-
-
-    
 @media (max-width:577.98px) {
     /* header part start */
 .top_header{
@@ -359,6 +380,10 @@
         margin-bottom: 40px;
         flex-direction: column;
         text-align: center;
+    }
+
+    #exclusive #offer .border_left {
+        border-left: none;
     }
 
     /* Exclusive Products part end */
