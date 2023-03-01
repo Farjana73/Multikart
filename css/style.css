@@ -1676,6 +1676,7 @@ body.dark {
   margin-right: 12px;
   width: 60px;
   height: 60px;
+  display: block;
   transition: all 0.5s ease;
 }
 #exclusive #offer .offer_item .offer_icon:hover svg {
