@@ -28,7 +28,7 @@
 
 
     /* navbar end */
-
+}
 
 /* Extra Large device end */
 
@@ -841,6 +841,11 @@
 }
 /* mobile menu start */
 
+.Messanger .messanger_icon {
+   
+    display: none;
+}
+
 /* header part end */
 
     /* navbar start */
@@ -861,6 +866,15 @@
 
     .nav_right_icon{
         display: none;
+    }
+
+    #navbar .brand_logo .small_device_menu .images {
+       display: none;
+    }
+
+    #navbar .brand_logo .small_device_menu i{
+        font-size: 28px;
+        color: #ff4c3b;
     }
     /* navbar end */
 

@@ -31,6 +31,25 @@ window.addEventListener("scroll", function(){
 })
 // nav bar end
 
+// to top part start
+
+let totop = document.querySelector(".to_top span")
+
+window.addEventListener("scroll", function(){
+  let scroll_value = Math.floor(window.scrollY);
+  
+  if (scroll_value > 180) {
+    totop.classList.add("back_totop")
+    
+  }
+  else{
+    totop.classList.remove("back_totop")
+    
+  }
+
+})
+// to top part end
+
 
 
 // top collection part start

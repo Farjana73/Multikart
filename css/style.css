@@ -411,6 +411,106 @@ body.dark {
 }
 
 /*mobile bottom menu end*/
+/*Messanger part start*/
+.Messanger {
+  position: relative;
+}
+.Messanger .messanger_icon {
+  width: 60px;
+  height: 60px;
+  background-color: #ff4c3b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 35px;
+  right: 16px;
+  z-index: 9999;
+}
+.Messanger .messanger_icon .messanger_form {
+  width: 400px;
+  height: 400px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 20px;
+  right: 90px;
+  padding: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all linear 0.3s;
+}
+.Messanger .messanger_icon .messanger_form .messanger_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Messanger .messanger_icon .messanger_form .heading_text h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  padding: 20px 0;
+}
+.Messanger .messanger_icon .messanger_form .heading_text p {
+  color: #000;
+  font-size: 15px;
+  line-height: 20px;
+}
+.Messanger .messanger_icon .messanger_form .heading_text button {
+  width: 100%;
+  background-color: rgb(255, 76, 59);
+  color: #fff;
+  cursor: pointer;
+  padding: 0 30px 0 30px;
+  border-radius: 16px;
+  font-weight: 600;
+  min-height: 54px;
+  border: none;
+  margin-top: 30px;
+}
+.Messanger .messanger_icon .messanger_form .powerd_by {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.Messanger .messanger_icon .messanger_form .powerd_by h6 {
+  margin-bottom: 0;
+}
+.Messanger .messanger_icon:hover .messanger_form {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*Messanger part end*/
+/*to top part start*/
+.to_top span {
+  width: 50px;
+  height: 50px;
+  background-color: #ff4c3b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 118px;
+  right: 24px;
+  z-index: 9999;
+  visibility: hidden;
+  opacity: 0;
+  transition: all linear 0.3s;
+}
+.to_top span i {
+  color: #ffffff;
+}
+.to_top .back_totop {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*to top part end*/
 /* ==============================
     |||||header part end||||
 =================================*/
