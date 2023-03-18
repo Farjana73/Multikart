@@ -74,12 +74,87 @@
     #navbar .brand_logo .small_device_menu{
         display: flex;
         gap: 10px;
+        align-items: center;
        
     }
     #navbar .brand_logo .small_device_menu i{
         font-size: 28px;
         color: #ff4c3b;
     }
+
+    .dark #navbar ul li a {
+        color: #222;
+    }
+
+      /* small device right side offcanvas start */
+      .offcanvas-header {
+       
+        justify-content: flex-end;
+    }
+
+    .btn-close {
+       
+        background: none;
+       
+    }
+
+    .small-offcanvas .fa-chevron-right{
+        font-size: 15px !important;
+        color: black !important;
+    }
+
+    .offcanvas-header .btn-close {  
+        margin-top: -1.3rem;
+        
+    }
+
+    .small_offcanvas_body .small_accordion-item{
+        border: none !important;
+    }
+    .small_offcanvas_body .small_accordion-item button{
+            padding: 10px 15px;
+            color: #222;
+            font-weight: 700;
+            font-size: 14px;
+            font-family: Lato,sans-serif;
+            line-height: 23px;
+            letter-spacing: .07em;
+    }
+    .small_offcanvas_body .small_accordion-item button:hover{
+           color: #ff4c3b;
+    }
+    .small_offcanvas_body .small_accordion-item .small_device_accrodion_body ul li{
+        color: #222;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 5px 35px;
+        display: block;
+        letter-spacing: .07em;
+        line-height: 1.9;
+    }
+
+    .btn-check:focus+.btn-primary, .btn-primary:focus {
+      box-shadow: none !important;
+    }
+
+    .btn-check:focus+.btn, .btn:focus {
+       
+        box-shadow: none !important;
+
+    }
+
+    .btn-close:focus {
+        box-shadow: none !important;
+    }
+
+    /* small device right side offcanvas end */
+
+    #navbar .brand_logo .small_device_menu button{
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+
     #navbar .brand_logo .small_device_menu img{
         margin-right: 5px;
     }
@@ -341,12 +416,89 @@
     #navbar .brand_logo .small_device_menu{
         display: flex;
         gap: 10px;
+        align-items: center;
        
     }
+
+    #navbar .brand_logo .small_device_menu button{
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+
+
     #navbar .brand_logo .small_device_menu i{
         font-size: 28px;
         color: #ff4c3b;
     }
+
+    .dark #navbar ul li a {
+        color: #222;
+    }
+
+      /* small device right side offcanvas start */
+      .offcanvas-header {
+       
+        justify-content: flex-end;
+    }
+
+    .btn-close {
+       
+        background: none;
+       
+    }
+
+    .small-offcanvas .fa-chevron-right{
+        font-size: 15px !important;
+        color: black !important;
+    }
+
+    .offcanvas-header .btn-close {  
+        margin-top: -1.3rem;
+        
+    }
+
+    .small_offcanvas_body .small_accordion-item{
+        border: none !important;
+    }
+    .small_offcanvas_body .small_accordion-item button{
+            padding: 10px 15px;
+            color: #222;
+            font-weight: 700;
+            font-size: 14px;
+            font-family: Lato,sans-serif;
+            line-height: 23px;
+            letter-spacing: .07em;
+    }
+    .small_offcanvas_body .small_accordion-item button:hover{
+           color: #ff4c3b;
+    }
+    .small_offcanvas_body .small_accordion-item .small_device_accrodion_body ul li{
+        color: #222;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 5px 35px;
+        display: block;
+        letter-spacing: .07em;
+        line-height: 1.9;
+    }
+
+    .btn-check:focus+.btn-primary, .btn-primary:focus {
+        box-shadow: none !important;
+      }
+  
+      .btn-check:focus+.btn, .btn:focus {
+         
+          box-shadow: none !important;
+  
+      }
+
+      .btn-close:focus {
+        box-shadow: none !important;
+    }
+
+
+    /* small device right side offcanvas end */
     #navbar .brand_logo .small_device_menu img{
         margin-right: 5px;
     }
@@ -610,12 +762,88 @@
     #navbar .brand_logo .small_device_menu{
         display: flex;
         gap: 10px;
+        align-items: center;
        
     }
+
+    #navbar .brand_logo .small_device_menu button{
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+
     #navbar .brand_logo .small_device_menu i{
         font-size: 28px;
         color: #ff4c3b;
     }
+
+    .dark #navbar ul li a {
+        color: #222;
+    }
+
+      /* small device right side offcanvas start */
+      .offcanvas-header {
+       
+        justify-content: flex-end;
+    }
+
+    .btn-close {
+       
+        background: none;
+       
+    }
+
+    .small-offcanvas .fa-chevron-right{
+        font-size: 15px !important;
+        color: black !important;
+    }
+
+    .offcanvas-header .btn-close {  
+        margin-top: -1.3rem;
+        
+    }
+
+    .small_offcanvas_body .small_accordion-item{
+        border: none !important;
+    }
+    .small_offcanvas_body .small_accordion-item button{
+            padding: 10px 15px;
+            color: #222;
+            font-weight: 700;
+            font-size: 14px;
+            font-family: Lato,sans-serif;
+            line-height: 23px;
+            letter-spacing: .07em;
+    }
+    .small_offcanvas_body .small_accordion-item button:hover{
+           color: #ff4c3b;
+    }
+    .small_offcanvas_body .small_accordion-item .small_device_accrodion_body ul li{
+        color: #222;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 5px 35px;
+        display: block;
+        letter-spacing: .07em;
+        line-height: 1.9;
+    }
+
+    .btn-check:focus+.btn-primary, .btn-primary:focus {
+        box-shadow: none !important;
+      }
+  
+      .btn-check:focus+.btn, .btn:focus {
+         
+          box-shadow: none !important;
+  
+      }
+      .btn-close:focus {
+        box-shadow: none !important;
+    }
+
+
+    /* small device right side offcanvas end */
+
     #navbar .brand_logo .small_device_menu img{
         margin-right: 5px;
     }
@@ -872,10 +1100,87 @@
        display: none;
     }
 
+    #navbar .brand_logo .small_device_menu button{
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
     #navbar .brand_logo .small_device_menu i{
         font-size: 28px;
         color: #ff4c3b;
     }
+
+    .dark #navbar ul li a {
+        color: #222;
+    }
+
+    /* small device right side offcanvas start */
+    .offcanvas-header {
+       
+        justify-content: flex-end;
+    }
+
+    .btn-close {
+       
+        background: none;
+       
+    }
+
+    .small-offcanvas .fa-chevron-right{
+        font-size: 15px !important;
+        color: black !important;
+    }
+
+    .offcanvas-header .btn-close {  
+        margin-top: -1.3rem;
+        
+    }
+
+    .small_offcanvas_body .small_accordion-item{
+        border: none !important;
+    }
+    .small_offcanvas_body .small_accordion-item button{
+            padding: 10px 15px;
+            color: #222;
+            font-weight: 700;
+            font-size: 14px;
+            font-family: Lato,sans-serif;
+            line-height: 23px;
+            letter-spacing: .07em;
+    }
+    .small_offcanvas_body .small_accordion-item button:hover{
+           color: #ff4c3b;
+    }
+    .small_offcanvas_body .small_accordion-item .small_device_accrodion_body ul li{
+        color: #222;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 5px 35px;
+        display: block;
+        letter-spacing: .07em;
+        line-height: 1.9;
+    }
+
+    .btn-check:focus+.btn-primary, .btn-primary:focus {
+        box-shadow: none !important;
+      }
+  
+      .btn-check:focus+.btn, .btn:focus {
+         
+          box-shadow: none !important;
+  
+      }
+
+      .btn-close:focus {
+        box-shadow: none !important;
+    }
+
+
+    /* small device right side offcanvas end */
+
+    
+
+    
     /* navbar end */
 
     /* banner part start */
