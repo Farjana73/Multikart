@@ -302,11 +302,58 @@ $('.display_image_slider').slick({
 
 // dress stock part start
 
-// let leftIcon = document.querySelector(".left_icon i")
-// let input = document.querySelector("input")
-// let righttIcon = document.querySelector(".right_icon i")
+let leftIcon = document.querySelector(".left_icon i");
+let input = document.getElementById("input");
+let righttIcon = document.querySelector(".right_icon i");
+let stock = document.querySelector(".stock");
 
-// let i = 0
+
+let i = 0;
+
+function increment(){
+  i++;
+
+  if (i<6) {
+    input.value = i;
+
+  }
+  else if ( i>=6){
+    i=6
+    input.value = i;
+    stock.innerHTML = "Out of stock"
+    righttIcon.disabled = true;
+  }
+  
+}
+function decrement(){
+  i--;
+
+  if(i === 0){
+    
+    input.value = i;
+    leftIcon.disabled = true;
+  }
+  else if( i<=6 ){
+    input.value = i;
+    stock.innerHTML = "In Stock";
+    righttIcon.disabled = false;
+
+  }
+
+  else{
+    alert('dont click')
+  }
+
+
+  
+}
+
+righttIcon.addEventListener("click", increment);
+leftIcon.addEventListener("click", decrement);
+
+// })
+
+
 
 // dress stock part end
 
